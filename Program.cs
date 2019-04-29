@@ -23,18 +23,22 @@ namespace StructLabStudent
 
         static void runMenu(Student[] studs)
         {
-            Console.WriteLine("Щоб запустити виконання варіанту 1 (виконавець студент Ааа), введіть 1 \nЩоб запустити виконання варіанту 3 (виконавець студент Ббб), введіть 2 \nЩоб запустити виконання варіанту 12 (виконавець студент Ввв), введіть >= 3 \nДля виходу, введіть 0. ");
-            int w = Convert.ToInt32(Console.ReadLine());
-            /* if (w == 1) 
-             else if (w == 3)
-             else*/
+            int w = 0;
+            do
+            {
+                Console.WriteLine("Щоб запустити виконання варiанту 1 (виконавець студент Весельський), введiть 1 \nЩоб запустити виконання варiанту 3 (виконавець студент Ббб), введiть 2 \nЩоб запустити виконання варiанту 12 (виконавець студент Ввв), введiть >= 3 \nДля виходу, введiть 0. ");
+                w = Convert.ToInt32(Console.ReadLine());
+                if (w == 1) Variant1(studs);
+                /*else if (w == 3)
+                else*/
+            }
+            while (w != 0);
         }
 
         static void Main(string[] args)
         {
             Student[] studs = ReadData("input.txt");
             runMenu(studs);
-            Console.ReadKey();
         }
     }
 }
