@@ -1,7 +1,0 @@
-C:\Users\miner\Desktop\laba5\bin\Debug\StructLabStudent.exe.config
-C:\Users\miner\Desktop\laba5\bin\Debug\StructLabStudent.exe
-C:\Users\miner\Desktop\laba5\bin\Debug\StructLabStudent.pdb
-C:\Users\miner\Desktop\laba5\obj\Debug\StructLabStudent.csprojAssemblyReference.cache
-C:\Users\miner\Desktop\laba5\obj\Debug\StructLabStudent.csproj.CoreCompileInputs.cache
-C:\Users\miner\Desktop\laba5\obj\Debug\StructLabStudent.exe
-C:\Users\miner\Desktop\laba5\obj\Debug\StructLabStudent.pdb

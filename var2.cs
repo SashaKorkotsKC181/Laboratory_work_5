@@ -16,7 +16,7 @@ namespace StructLabStudent
 				if(studs[i].physicsMark == '5')
 				{
 					strwr.Write(studs[i].surName + " " + studs[i].firstName + " " + studs[i].patronymic + " " + ((studs[i].mathematicsMark + studs[i].physicsMark + studs[i].informaticsMark) / 3) + " " + studs[i].scholarship);
-					Console.WriteLine();
+					strwr.WriteLine();
 				}
 			}
 			strwr.Close();

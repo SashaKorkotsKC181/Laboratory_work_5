@@ -47,6 +47,7 @@
     <Compile Include="var1.cs" />
     <Compile Include="var0.cs" />
     <Compile Include="var2.cs" />
+    <Compile Include="var3.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

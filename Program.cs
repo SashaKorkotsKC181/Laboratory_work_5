@@ -26,11 +26,12 @@ namespace StructLabStudent
             int w = 0;
             do
             {
-                Console.WriteLine("Щоб запустити виконання варiанту 1 (виконавець студент Весельський), введiть 1 \nЩоб запустити виконання варiанту 2 (виконавець студент Куротченко), введiть 2 \nЩоб запустити виконання варiанту 3 (виконавець студент Коркоць), введiть 3 \nДля виходу, введiть 0. ");
+                Console.WriteLine("Щоб запустити виконання варiанту 1 (виконавець студент Весельський О.С.), введiть 1 \n Щоб запустити виконання варiанту 2 (виконавець студент Куротченко В.В), введiть 2 \n Щоб запустити виконання варiанту 3 (виконавець студент Коркоць О.Г.), введiть 3 \n Щоб запустити виконання варiанту 12 (виконавець студент Кайданський А.А.), введіть 12 \n Для виходу, введiть 0.");
                 w = Convert.ToInt32(Console.ReadLine());
-				if (w == 0) Variant0(studs);
+				if (w == 3) Variant0(studs);
 				else if (w == 1) Variant1(studs);
 				else if (w == 2) Variant2(studs);
+                else if (w == 12) Variant3(studs);
                 //else
             }
             while (w != 0);
@@ -38,7 +39,7 @@ namespace StructLabStudent
 
         static void Main(string[] args)
         {
-            Student[] studs = ReadData("input.txt");
+            Student[] studs = ReadData("data.txt");
             runMenu(studs);
         }
     }
